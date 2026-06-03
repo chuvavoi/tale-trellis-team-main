@@ -7,8 +7,10 @@
   "assets": {
     "directory": ".output/public"
   },
+  "minify": true,
+  "upload_source_maps": true,
+  "no_bundle": false,
   "build": {
-    "command": "bun run build"
-  },
-  "no_bundle": true
+    "command": ""
+  }
 }
