@@ -9,8 +9,7 @@
   },
   "minify": true,
   "upload_source_maps": true,
-  "no_bundle": false,
   "build": {
-    "command": ""
+    "command": "bun run build"
   }
 }

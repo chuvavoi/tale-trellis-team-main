@@ -7,7 +7,7 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 // Force the TanStack/Vite build to generate the Nitro/Cloudflare-compatible output
-// expected by Wrangler at dist/server/server.js and dist/client.
+// expected by Wrangler at .output/server/index.mjs and .output/public.
 export default defineConfig({
   nitro: true,
   tanstackStart: {
