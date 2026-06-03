@@ -3,11 +3,12 @@
   "name": "tale-trellis-team1",
   "compatibility_date": "2025-09-24",
   "compatibility_flags": ["nodejs_compat"],
-  "main": "dist/server/server.js",
+  "main": ".output/server/index.mjs",
   "assets": {
-    "directory": "dist/client"
+    "directory": ".output/public"
   },
   "build": {
     "command": "bun run build"
-  }
+  },
+  "no_bundle": true
 }
