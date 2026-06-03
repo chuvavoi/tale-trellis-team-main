@@ -8,6 +8,6 @@
     "directory": "dist/client"
   },
   "build": {
-    "command": ""
+    "command": "bun run build"
   }
 }
